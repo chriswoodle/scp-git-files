@@ -1,6 +1,6 @@
 {
   "name": "scp-git-files",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "scp git files ",
   "author": "Chris Woodle <chriswoodle@outlook.com>",
   "main": "index.js",

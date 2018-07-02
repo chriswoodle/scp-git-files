@@ -1,4 +1,4 @@
-const projectDir = process.argv[1] || __dirname;
+const projectDir = process.argv[1] || process.cwd();
 const scpTarget = process.argv[2];
 
 const fs = require('fs');
