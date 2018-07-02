@@ -1,0 +1,19 @@
+{
+  "name": "scp-git-files",
+  "version": "1.0.0",
+  "description": "scp git files ",
+  "author": "Chris Woodle <chriswoodle@outlook.com>",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": "bin/scp-git-files",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chriswoodle/scp-git-files.git"
+  },
+  "dependencies": {
+    "async": "^2.6.1",
+    "glob-gitignore": "^1.0.6",
+    "progress": "^2.0.0",
+    "scp2": "^0.5.0"
+  }
+}
