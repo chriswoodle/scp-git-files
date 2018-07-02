@@ -1,5 +1,5 @@
-const projectDir = process.argv[1] || process.cwd();
-const scpTarget = process.argv[2];
+const projectDir = process.argv[2] || process.cwd();
+let scpTarget = process.argv[3];
 
 const fs = require('fs');
 
